@@ -75,11 +75,11 @@
             <?php
 
           $s1 = $_POST['q1'] + $_POST['q3'] + $_POST['q5'] + $_POST['q7'];
-
+          $s1 = $s1 % 2;
           $s2 = $_POST['q2'] + $_POST['q3'] + $_POST['q5'] + $_POST['q6'];
-
+          $s2 = $s2 % 2;
           $s3 = $_POST['q4'] + $_POST['q5'] + $_POST['q6'] + $_POST['q7'];
-
+          $s3 = $s3 % 2;
 
 
           if ($_POST["Reponse"]) {
